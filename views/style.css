@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    background-image: url(logo.webp);
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
+  
+
+  header
+  {
+    background-color: #ebbc55;
+    height: 40px;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    margin-left: 270px;
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    color:black;
+    text-align: justify;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+    color: aliceblue;
+    text-align:left;
+  }
+  
+  main h1
+  {
+    color: #ebbc55;
+  }
+
+  .divPrincipal
+  {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 150px;
+  }
